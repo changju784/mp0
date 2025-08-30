@@ -1,1 +1,82 @@
 /* Your CSS here. */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #87CEEB;
+    color: black;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card h1 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+}
+
+.card h2 {
+    margin: 0 0 15px;
+    font-size: 18px;
+    color: gray;
+}
+
+.card p {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4a6cf7;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.card a:hover {
+    background-color: #3b57c4;
+}
+
+.theme-brown .card {
+    background-color: #f5f5dc;
+}
+
+.theme-brown .card a {
+    background-color: #8b4513;
+}
+
+.theme-brown .card a:hover {
+    background-color: #6b3410;
+}
+
+.theme-orange .card {
+    background-color: #fff3e0;
+}
+
+.theme-orange .card a {
+    background-color: #ff9800;
+}
+
+.theme-orange .card a:hover {
+    background-color: #e68900;
+}
