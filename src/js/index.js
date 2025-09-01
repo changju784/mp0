@@ -7,4 +7,5 @@ document.getElementById("colorSelect").addEventListener("change", function (e) {
     } else if (e.target.value === "orange") {
         document.body.classList.add("theme-orange");
     }
+
 });
